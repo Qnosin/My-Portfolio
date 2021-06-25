@@ -1,0 +1,125 @@
+
+.Projects-sign{
+    height: 20vh;
+}
+.Projects-sign h2{
+    color: #fff;
+}
+/*First project */
+.my-Work-1{
+    width: 100%;
+    max-height: 40vh;
+    margin: 0 auto;
+    background-color: #C3C715;
+    border-radius: 10px;
+    animation: showcase forwards 1.2s ease;
+    color: #fff;
+    padding: 1rem 0;
+}
+.showcase-1{
+    width: 50%;
+}
+.showcase-1 img{
+    width: 150px;
+    border-radius: 10px;
+}
+.description-1{
+    width: 50%;
+    font-size: .75rem;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+.description-1 p{
+    margin-bottom: 0;
+
+}
+.first-section{
+    text-decoration: none;
+}
+
+/*Second porject */
+.second-section{
+    text-decoration: none;
+}
+.my-Work-2{
+    width: 100%;
+    max-height: 40vh;
+    margin: 0 auto;
+    background-color: #C3C715;
+    border-radius: 10px;
+    animation: showcase2 forwards 1.2s ease;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+.showcase-2{
+    width: 50%;
+}
+.showcase-2 img {
+    width: 150px;
+    border-radius: 10px;
+}
+.description-2 {
+    width: 50%;
+    font-size: .75rem;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+.description-2 p {
+    margin-bottom: 0;
+
+}
+
+@media screen and (min-width:768px) {
+    .my-Work-1{
+        width: 50%;
+    }
+     .my-Work-2 {
+         width: 50%;
+     }
+    
+}
+@media screen and (min-width:992px) {
+    .my-Work-1 {
+        width: 50%;
+        font-size: 1.2rem;
+    }
+    .my-Work-2 {
+        width: 50%;
+        font-size: 1.2rem;
+    }
+    .showcase-1 img {
+        width: 200px;
+        border-radius: 10px;
+    }
+     .showcase-2 img {
+         width: 200px;
+         border-radius: 10px;
+     }
+
+}
+@keyframes showcase {
+    0%{
+        transform: translateX(-300px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+    
+}
+@keyframes showcase2 {
+    0% {
+        transform: translateX(300px);
+        opacity: 0%;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+
+}

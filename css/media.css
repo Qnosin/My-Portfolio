@@ -1,0 +1,95 @@
+.About-me:hover,
+.Projects:hover,
+.Contacts:hover {
+    box-shadow: 0px 10px 13px -7px #000000,
+        1px 5px 18px 5px rgba(255, 255, 255, 0.938);
+    transition: 0.5s ease;
+}
+.navs{
+    color: #fff !important;
+}
+.navbar-nav a:hover {
+    color: #000000 !important;
+}
+
+body {
+    animation: animation1 forwards ease 1s !important;
+    background-color: black;
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+/* images width/height changes */
+.terminal-ic-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.polaroid {
+    width: 50px;
+    height: 50px;
+}
+
+.book {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.mail {
+    width: 40px;
+    height: 40px;
+}
+
+
+@media screen and (min-width:768px) {
+    .Technologies {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .About-me {
+        width: 30% !important;
+    }
+
+    .Projects {
+        width: 30% !important;
+    }
+
+    .Contacts {
+        width: 30% !important;
+
+    }
+
+    .wrapper {
+        margin: 0 !important;
+    }
+}
+@media screen and (min-width:350px) {
+    .git-logo{
+        margin-top: 0 !important;
+    }
+}
+
+@keyframes animation1 {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 10%;
+
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+}
