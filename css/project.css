@@ -38,7 +38,7 @@
     text-decoration: none;
 }
 
-/*Second porject */
+/*Second project */
 .second-section{
     text-decoration: none;
 }
@@ -71,34 +71,121 @@
     margin-bottom: 0;
 
 }
+/* third Project */
+.third-section {
+    text-decoration: none;
+}
+.my-Work-3 {
+    width: 100%;
+    max-height: 40vh;
+    margin: 0 auto;
+    background-color: #C3C715;
+    border-radius: 10px;
+    animation: showcase forwards 1.2s ease;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+.showcase-3 {
+    width: 50%;
+}
+.showcase-3 img {
+    width: 150px;
+    border-radius: 10px;
+}
+.description-3 {
+    width: 50%;
+    font-size: .75rem;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+.description-3 p {
+    margin-bottom: 0;
+
+}
+/* fourth project */
+.fourth-section {
+    text-decoration: none;
+}
+.my-Work-4 {
+    width: 100%;
+    max-height: 40vh;
+    margin: 0 auto;
+    background-color: #C3C715;
+    border-radius: 10px;
+    animation: showcase2 forwards 1.2s ease;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+.showcase-4 {
+    width: 50%;
+}
+.showcase-4 img {
+    width: 150px;
+    border-radius: 10px;
+}
+.description-4 {
+    width: 50%;
+    font-size: .75rem;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+.description-4 p {
+    margin-bottom: 0;
+
+}
+/* fiveth project */
+.fiveth-section {
+    text-decoration: none;
+}
+.my-Work-5 {
+    width: 100%;
+    max-height: 40vh;
+    margin: 0 auto;
+    background-color: #C3C715;
+    border-radius: 10px;
+    animation: showcase forwards 1.2s ease;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+.showcase-5 {
+    width: 50%;
+}
+.showcase-5 img {
+    width: 150px;
+    border-radius: 10px;
+}
+.description-5 {
+    width: 50%;
+    font-size: .75rem;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
+.description-5 p {
+    margin-bottom: 0;
+
+}
+
 
 @media screen and (min-width:768px) {
-    .my-Work-1{
+    .my-Work-1,.my-Work-2,.my-Work-3,.my-Work-4,.my-Work-5{
         width: 50%;
     }
-     .my-Work-2 {
-         width: 50%;
-     }
-    
 }
 @media screen and (min-width:992px) {
-    .my-Work-1 {
+    .my-Work-1 ,.my-Work-2,.my-Work-3,.my-Work-4,.my-Work-5 {
         width: 50%;
         font-size: 1.2rem;
     }
-    .my-Work-2 {
-        width: 50%;
-        font-size: 1.2rem;
-    }
-    .showcase-1 img {
+    .showcase-1 img , .showcase-2 img, .showcase-3 img, .showcase-4 img,.showcase-5 img {
         width: 200px;
         border-radius: 10px;
     }
-     .showcase-2 img {
-         width: 200px;
-         border-radius: 10px;
-     }
-
 }
 @keyframes showcase {
     0%{

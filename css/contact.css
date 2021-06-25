@@ -1,0 +1,65 @@
+.contact-sign {
+    height: 20vh;
+}
+
+.contact-sign h2 {
+    color: #fff;
+}
+/* ig */
+.photo-1,.photo-2,.photo-3,.photo-4{
+    width: 70px;
+}
+.ig{
+    color: #fff;
+    text-align: center;
+}
+.ig p{
+    padding: 0;
+    margin: 0;
+}
+.ig a{
+    text-decoration: none;
+    color: #fff;
+}
+/*git*/
+.photo-2{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.git{
+    color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+}
+.git a{
+    text-decoration: none;
+    color: #fff;
+}
+/*mail*/
+.photo-3{
+    background-color: #fff;
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.Mail{
+     color: #fff;
+     text-align: center;
+}
+.Mail a{
+    text-decoration: none;
+    color: #fff;
+}
+/* youtube */
+.photo-4{
+    width: 80px;
+}
+.Youtube{
+    color: #fff;
+    text-align: center;
+}
+.Youtube a{
+    text-decoration: none;
+    color: #fff;
+}

@@ -40,7 +40,9 @@ body {
     width: 40px;
     height: 40px;
 }
-
+.wrapper a{
+    text-decoration: none;
+}
 
 @media screen and (min-width:768px) {
     .Technologies {
@@ -52,15 +54,15 @@ body {
 
 @media screen and (min-width:992px) {
     .About-me {
-        width: 30% !important;
+        width: 340px !important;
     }
 
     .Projects {
-        width: 30% !important;
+        width: 340px !important;
     }
 
     .Contacts {
-        width: 30% !important;
+        width: 340px !important;
 
     }
 
