@@ -48,7 +48,7 @@
     margin: 0 auto;
     background-color: #C3C715;
     border-radius: 10px;
-    animation: showcase2 forwards 1.2s ease;
+    animation: showcase forwards 1.2s ease;
     color: #fff;
     margin-top: 2rem;
     padding: 1rem 0;
@@ -114,7 +114,7 @@
     margin: 0 auto;
     background-color: #C3C715;
     border-radius: 10px;
-    animation: showcase2 forwards 1.2s ease;
+    animation: showcase forwards 1.2s ease;
     color: #fff;
     margin-top: 2rem;
     padding: 1rem 0;
