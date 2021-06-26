@@ -1,0 +1,67 @@
+.img-place{
+    min-height: 40vh;
+    margin-top: 2rem;
+    animation: forwards 1s ease showcase;
+}
+.img-place img{
+    width: 180px;
+    border-radius: 10px;
+}
+.my-Story{
+    color: #Fff;
+     animation: forwards 1s ease showcase;
+}
+.Story{
+    height: 90vh;
+}
+.my-Story h2{
+    margin-top: 2rem;
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: underline;
+}
+.my-Story p{
+    margin-left: 1rem;
+}
+.motto{
+    font-size: .8rem;
+    margin-left: .5rem;
+}
+@media  screen and (min-width:992px) {
+    .img-place img{
+        width: 350px;
+    }
+    .my-Story{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+    }
+    
+}
+@keyframes showcase {
+    0% {
+        transform: translateX(-300px);
+        opacity: 0%;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+
+}
+@keyframes showcase2 {
+    0% {
+        transform: translateX(300px);
+        opacity: 0%;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+
+}
